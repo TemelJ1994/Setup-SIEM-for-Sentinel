@@ -22,6 +22,7 @@ Create Virtual Machine: <br/>
 <img src="create_virtualmachine.png" height="80%" width="80%" alt="Setup-SIEM-for-Sentinel"/>
 <br />
 <br />
+<br />
 Create Log Analytics Workspace: <br/>
 <img src="create_LAW.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 <br />
