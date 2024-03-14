@@ -20,7 +20,7 @@ This project consist of me setting a basic home lab running Active Directory wit
 
 <p align="center">
 Create Virtual Machine: <br/>
-<img src="https://imgur.com/v1UjEnG" height="80%" width="80%" alt="Setup-SIEM-for-Sentinel"/>
+<img src="create_virtualmachine.png" height="80%" width="80%" alt="Setup-SIEM-for-Sentinel"/>
 <br />
 <br />
 Create Log Analytics Workspace:  <br/>
