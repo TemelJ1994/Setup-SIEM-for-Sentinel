@@ -73,19 +73,23 @@ Create custom log in Log Analytics Workspace (LAW) to import in our custom log: 
 <br />
 <br />
 Extract fields from raw custom log data with custom script:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="extracted_data_LAW.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Setup map in Sentinel:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Setup map in Sentinel and connect to workspace:  <br/>
+<img src="Add_sentinel_to_law.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Run custom script in Sentinel workbooks and plot map:  <br/>
+<img src="run_queryscript_plotmap2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 View map in Sentinel:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="Final_failed_RDP_MAP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Final check on the map  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="Final_worldmap_failed.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 </p>
