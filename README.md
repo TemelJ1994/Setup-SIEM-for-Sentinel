@@ -33,7 +33,7 @@ Enable server settings and data gathering in Microsoft Cloud Defender: <br/>
 <br />
 <br />
 Connect Log Analytics to VM:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="connect_law_to_vm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Setup Microsoft Sentinel:  <br/>
