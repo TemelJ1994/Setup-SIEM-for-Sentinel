@@ -33,19 +33,19 @@ Enable server settings and data gathering in Microsoft Cloud Defender: <br/>
 <br />
 <br />
 Connect Log Analytics to VM:  <br/>
-<img src="connect_law_to_vm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="connect_law_to_vm.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Setup Microsoft Sentinel:  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="Add_sentinel_to_law.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Observer Event Viewer Logs in VM: <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="observe_event_viwer.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Turn off firewall and Ping VM from your machine:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="ping_vm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Download PowerShell script:  <br/>
