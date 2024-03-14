@@ -24,11 +24,12 @@ Create Virtual Machine: <br/>
 <br />
 <br />
 Create Log Analytics Workspace:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="create_LAW.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enable gathering data in Microsoft Cloud Defender: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Enable server settings and data gathering in Microsoft Cloud Defender: <br/>
+<img src="defender_plan.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="data_collection_setting.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Connect Log Analytics to VM:  <br/>
