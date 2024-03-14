@@ -40,6 +40,10 @@ Setup Microsoft Sentinel:  <br/>
 <img src="Add_sentinel_to_law.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+Connect to VM with Remote Desktop:  <br/>
+<img src="connect_remotedesktop.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
 Observer Event Viewer Logs in VM: <br/>
 <img src="observe_event_viwer.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
@@ -49,7 +53,7 @@ Turn off firewall and Ping VM from your machine:  <br/>
 <br />
 <br />
 Download PowerShell script:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 <br />
 <br />
 Get Geolocation.io API Key:  <br/>
