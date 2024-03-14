@@ -53,11 +53,11 @@ Download PowerShell script:  <br/>
 <br />
 <br />
 Get Geolocation.io API Key:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="Ipgeolocation_api.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Run Script To get Geo Data from attackers across the globe:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="Run_script_geodata_of_attackers.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Create custom log in Log Analytics Workspace (LAW) to import in our custom log:  <br/>
