@@ -20,11 +20,15 @@ In this project, I setup Microsoft Sentinel (SIEM) and connect it to a live virt
 <p align="center">
 Create Virtual Machine: <br/>
 <img src="create_virtualmachine.png" height="80%" width="80%" alt="Setup-SIEM-for-Sentinel"/>
+</p>
+- <b> created a resource group named honepotlab</b>
 <br />
 <br />
 <br />
+<p align="center">
 Create Log Analytics Workspace: <br/>
 <img src="create_LAW.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
 <br />
 <br />
 Enable server settings and data gathering in Microsoft Cloud Defender: <br/>
@@ -99,7 +103,6 @@ Final check on the map <br/>
 <img src="Final_worldmap_failed.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-</p>
 
 <!--
  ```diff
