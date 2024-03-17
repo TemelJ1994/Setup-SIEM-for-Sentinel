@@ -23,9 +23,9 @@ Create Virtual Machine: <br/>
 </p>
 - <b> Created a resource group named honepotlab</b>
 <br />
-- <b> Named the virtual machine </b>
+- <b> Named the virtual machine</b>
 <br />
-- <b> Selected Windows 10 as the Image/b>
+- <b> Selected Windows 10 as the Image</b>
  <br />
 <br />
 <br />
