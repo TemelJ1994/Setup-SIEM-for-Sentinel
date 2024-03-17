@@ -21,7 +21,12 @@ In this project, I setup Microsoft Sentinel (SIEM) and connect it to a live virt
 Create Virtual Machine: <br/>
 <img src="create_virtualmachine.png" height="80%" width="80%" alt="Setup-SIEM-for-Sentinel"/>
 </p>
-- <b> created a resource group named honepotlab</b>
+- <b> Created a resource group named honepotlab</b>
+<br />
+- <b> Named the virtual machine </b>
+<br />
+- <b> Selected Windows 10 as the Image/b>
+ <br />
 <br />
 <br />
 <br />
@@ -29,6 +34,7 @@ Create Virtual Machine: <br/>
 Create Log Analytics Workspace: <br/>
 <img src="create_LAW.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
+<b></b>
 <br />
 <br />
 Enable server settings and data gathering in Microsoft Cloud Defender: <br/>
