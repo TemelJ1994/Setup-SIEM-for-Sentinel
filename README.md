@@ -37,9 +37,11 @@ Create Log Analytics Workspace: <br/>
 <b></b>
 <br />
 <br />
+<p align="center">
 Enable server settings and data gathering in Microsoft Cloud Defender: <br/>
 <img src="defender_plan.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 <img src="data_collection_setting.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p/>
 <br />
 <br />
 Connect Log Analytics to VM: <br/>
