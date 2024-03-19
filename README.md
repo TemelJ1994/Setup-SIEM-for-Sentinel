@@ -21,11 +21,11 @@ In this project, I setup Microsoft Sentinel (SIEM) and connect it to a live virt
 Create Virtual Machine: <br/>
 <img src="create_virtualmachine.png" height="80%" width="80%" alt="Setup-SIEM-for-Sentinel"/>
 </p>
-- <b> Created a resource group named honepotlab</b>
+-  Created a resource group named honepotlab
 <br />
-- <b> Named the virtual machine</b>
+-  Named the virtual machine
 <br />
-- <b> Selected Windows 10 as the Image</b>
+-  Selected Windows 10 as the Image
 <br />
 <br />
 <br />
@@ -67,18 +67,20 @@ Connect to VM with Remote Desktop: <br/>
 </p>
 <br />
 <p align="center">
-Observer Event Viewer Logs in VM: <br/>
+Observed Event Viewer Logs in VM: <br/>
 <img src="observe_event_viwer.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
--<b>Focused on event 4625 for for failed account logons (brute-force) attacks</b>
+- Focused on event 4625 for for failed account logons (brute-force) attacks
+<br />
 <br />
 <p align="center">
-Turn off firewall and Ping VM from your machine: <br/>
+Turn off firewall and Ping VM from my home machine: <br/>
 <img src="ping_vm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
 </p>
+<br />
+- Turned off honeyport firewall to receive ICMP echo request
+<br />
 <br />
 <p align="center">
 Get Geolocation.io API Key: <br/>
@@ -93,51 +95,70 @@ Get Geolocation.io API Key: <br/>
 Run Script To get Geo Data from attackers across the globe: <br/>
 <img src="Run_script_geodata_of_attackers.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
-<br/>
--Used a custom PowerShell script to log event viewer security logs of failed log attemps.
-<br/>
--Script takes failed attempts geo data and creates a log file which was used to train my analytics workspace.
-<br/>
+-Used a custom PowerShell script to log event viewer security logs of failed logon attemps.
+<br />
+-Script takes log attemps geo data and creates a log file which was used to train my analytics workspace.
+<br />
+<br />
+<br />
 <p align="center">
 Failed Logon attempted logged: <br/>
 <img src="failed_self_logon.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
-<br />
 -Here I purposely failed to loggon to test the script
+<br />
+<br />
 <br />
 <p align="center">
 Bruteforce attacks being logged: <br/>
 <img src="attack_log_powershell.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
-<br />
 -After some time attemps were being made
 <br />
+<br />
+<br />
 <p align="center">
-Create custom log in Log Analytics Workspace (LAW) to import in our custom log: <br/>
+Created custom log in Log Analytics Workspace (LAW) to import in our custom log: <br/>
 <img src="create_custom_log_sample.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="failedRDPlog_notepad.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+- The custom powershell script created a txt file that I needed to import in LAW
 <br/>
 <br/>
+<p align="center">
 <img src="create_custom_log_path.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+-The original path for log file in ProgramData folder
 <br />
 <br />
+<p align="center">
 Extract fields from raw custom log data with custom script: <br/>
 <img src="extracted_data_LAW.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+-Used a custom  Kql/Sql script to extract the raw data needed to create custom fields for queries
 <br />
 <br />
+<p align="center">
 Setup map in Sentinel and connect to workspace: <br/>
 <img src="Add_sentinel_to_law.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Run custom script in Sentinel workbooks and plot map: <br/>
 <img src="run_queryscript_plotmap2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+- I ran the same custom script in my Microsoft Sentinel to query the extracted fields and create a visual map of the brute force attacks
 <br />
 <br />
+<p align="center">
 View map in Sentinel: <br/>
 <img src="Final_failed_RDP_MAP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Final check on the map <br/>
 <img src="Final_worldmap_failed.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+- I let the SIEM run until the next morning and checked on the map for a final time.
 <br />
 <br />
 
