@@ -64,34 +64,55 @@ Connect to VM with Remote Desktop: <br/>
 <img src="connect_remotedesktop.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+</p>
+<br />
+<p align="center">
 Observer Event Viewer Logs in VM: <br/>
 <img src="observe_event_viwer.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 <br />
+-<b>Focused on event 4625 for for failed account logons (brute-force) attacks</b>
 <br />
+<p align="center">
 Turn off firewall and Ping VM from your machine: <br/>
 <img src="ping_vm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Download PowerShell script: <br/>
-
+</p>
 <br />
-<br />
+<p align="center">
 Get Geolocation.io API Key: <br/>
 <img src="Ipgeolocation_api.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+-Used this site to get an API key to lookup attackers geodata
+<br />
+-Latitude, longitude, State, Country, Ip address, etc
 <br />
 <br />
+<p align="center">
 Run Script To get Geo Data from attackers across the globe: <br/>
 <img src="Run_script_geodata_of_attackers.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
 <br/>
+-Used a custom PowerShell script to log event viewer security logs of failed log attemps.
 <br/>
+-Script takes failed attempts geo data and creates a log file which was used to train my analytics workspace.
+<br/>
+<p align="center">
 Failed Logon attempted logged: <br/>
 <img src="failed_self_logon.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
 <br />
+-Here I purposely failed to loggon to test the script
 <br />
+<p align="center">
 Bruteforce attacks being logged: <br/>
 <img src="attack_log_powershell.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
 <br />
+-After some time attemps were being made
 <br />
+<p align="center">
 Create custom log in Log Analytics Workspace (LAW) to import in our custom log: <br/>
 <img src="create_custom_log_sample.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br/>
