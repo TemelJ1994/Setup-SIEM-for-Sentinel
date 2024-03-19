@@ -26,7 +26,7 @@ Create Virtual Machine: <br/>
 - <b> Named the virtual machine</b>
 <br />
 - <b> Selected Windows 10 as the Image</b>
- <br />
+<br />
 <br />
 <br />
 <br />
@@ -44,14 +44,22 @@ Enable server settings and data gathering in Microsoft Cloud Defender: <br/>
 <p/>
 <br />
 <br />
+<p align="center">
 Connect Log Analytics to VM: <br/>
 <img src="connect_law_to_vm.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+</p>
+<br />
+<p align="center">
 Setup Microsoft Sentinel: <br/>
 <img src="Add_sentinel_to_law.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 <br />
+</p>
+- <b> Added Sentinel (SIEM) to workspace in able to visualize attack data </b>
 <br />
+<br />
+<p align="center">
 Connect to VM with Remote Desktop: <br/>
 <img src="connect_remotedesktop.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 <br />
