@@ -99,6 +99,7 @@ Run Script To get Geo Data from attackers across the globe: <br/>
 <br />
 -Script takes log attemps geo data and creates a log file which was used to train my analytics workspace.
 <br />
+[Get PowerShell Script here](https://github.com/TemelJ1994/Setup-SIEM-for-Sentinel/blob/main/Custom_Security_Log_Exporter.ps1)
 <br />
 <br />
 <p align="center">
