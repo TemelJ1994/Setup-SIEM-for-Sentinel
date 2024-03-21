@@ -18,7 +18,7 @@ In this project, I setup Microsoft Sentinel (SIEM) and connect it to a live virt
 <h2>Lab walk-through:</h2>
 
 <p align="center">
-Create Virtual Machine: <br/>
+<b>Create Virtual Machine:<b> <br/>
 <img src="create_virtualmachine.png" height="80%" width="80%" alt="Setup-SIEM-for-Sentinel"/>
 </p>
 -  Created a resource group named honepotlab
@@ -31,43 +31,43 @@ Create Virtual Machine: <br/>
 <br />
 <br />
 <p align="center">
-Create Log Analytics Workspace: <br/>
+<b>Create Log Analytics Workspace:<b> <br/>
 <img src="create_LAW.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <b></b>
 <br />
 <br />
 <p align="center">
-Enable server settings and data gathering in Microsoft Cloud Defender: <br/>
+<b>Enable server settings and data gathering in Microsoft Cloud Defender:<b> <br/>
 <img src="defender_plan.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 <img src="data_collection_setting.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <p/>
 <br />
 <br />
 <p align="center">
-Connect Log Analytics to VM: <br/>
+<b>Connect Log Analytics to VM:<b> <br/>
 <img src="connect_law_to_vm.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 </p>
 <br />
 <p align="center">
-Setup Microsoft Sentinel: <br/>
+<b>Setup Microsoft Sentinel:<b> <br/>
 <img src="Add_sentinel_to_law.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 <br />
 </p>
-- <b> Added Sentinel (SIEM) to workspace in able to visualize attack data </b>
+-Added Sentinel (SIEM) to workspace in able to visualize attack data
 <br />
 <br />
 <p align="center">
-Connect to VM with Remote Desktop: <br/>
+<b>Connect to VM with Remote Desktop:<b> <br/>
 <img src="connect_remotedesktop.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 </p>
 <br />
 <p align="center">
-Observed Event Viewer Logs in VM: <br/>
+<b>Observed Event Viewer Logs in VM:<b> <br/>
 <img src="observe_event_viwer.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
@@ -75,7 +75,7 @@ Observed Event Viewer Logs in VM: <br/>
 <br />
 <br />
 <p align="center">
-Turn off firewall and Ping VM from my home machine: <br/>
+<b>Turn off firewall and Ping VM from my home machine:<b> <br/>
 <img src="ping_vm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
@@ -83,7 +83,7 @@ Turn off firewall and Ping VM from my home machine: <br/>
 <br />
 <br />
 <p align="center">
-Get Geolocation.io API Key: <br/>
+<b>Get Geolocation.io API Key:<b> <br/>
 <img src="Ipgeolocation_api.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 -Used this site to get an API key to lookup attackers geodata
@@ -92,7 +92,7 @@ Get Geolocation.io API Key: <br/>
 <br />
 <br />
 <p align="center">
-Run Script To get Geo Data from attackers across the globe: <br/>
+<b>Run Script To get Geo Data from attackers across the globe:<b> <br/>
 <img src="Run_script_geodata_of_attackers.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 -Used a custom PowerShell script to log event viewer security logs of failed logon attemps.
@@ -103,7 +103,7 @@ Run Script To get Geo Data from attackers across the globe: <br/>
 <br />
 <br />
 <p align="center">
-Failed Logon attempted logged: <br/>
+<b>Failed Logon attempted logged:<b> <br/>
 <img src="failed_self_logon.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 -Here I purposely failed to loggon to test the script
@@ -111,7 +111,7 @@ Failed Logon attempted logged: <br/>
 <br />
 <br />
 <p align="center">
-Bruteforce attacks being logged: <br/>
+<b>Bruteforce attacks being logged:<b> <br/>
 <img src="attack_log_powershell.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 -After some time attemps were being made
@@ -119,7 +119,7 @@ Bruteforce attacks being logged: <br/>
 <br />
 <br />
 <p align="center">
-Created custom log in Log Analytics Workspace (LAW) to import in our custom log: <br/>
+<b>Created custom log in Log Analytics Workspace (LAW) to import in our custom log:<b> <br/>
 <img src="create_custom_log_sample.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="failedRDPlog_notepad.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
@@ -133,18 +133,19 @@ Created custom log in Log Analytics Workspace (LAW) to import in our custom log:
 <br />
 <br />
 <p align="center">
-Extract fields from raw custom log data with custom script: <br/>
+<b>Extract fields from raw custom log data with custom script:<b> <br/>
 <img src="extracted_data_LAW.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
--Used a custom  Kql/Sql script to extract the raw data needed to create custom fields for queries
+-Used a custom  Kql script to extract the raw data needed to create custom fields for queries <br />
+[Get custom script here](https://github.com/TemelJ1994/Setup-SIEM-for-Sentinel/blob/main/custom%20script%20Sentinel)
 <br />
 <br />
 <p align="center">
-Setup map in Sentinel and connect to workspace: <br/>
+<b>Setup map in Sentinel and connect to workspace:<b> <br/>
 <img src="Add_sentinel_to_law.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Run custom script in Sentinel workbooks and plot map: <br/>
+<b>Run custom script in Sentinel workbooks and plot map:<b> <br/>
 <img src="run_queryscript_plotmap2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
@@ -152,15 +153,16 @@ Run custom script in Sentinel workbooks and plot map: <br/>
 <br />
 <br />
 <p align="center">
-View map in Sentinel: <br/>
+<b>View map in Sentinel:<b> <br/>
 <img src="Final_failed_RDP_MAP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Final check on the map <br/>
+<b>Final check on the map:<b> <br/>
 <img src="Final_worldmap_failed.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 - I let the SIEM run until the next morning and checked on the map for a final time.
 <br />
+- This concludes my lab. Thank you!
 <br />
 
 <!--
