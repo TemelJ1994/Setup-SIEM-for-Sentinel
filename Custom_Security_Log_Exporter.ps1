@@ -132,6 +132,7 @@ while ($true)
             else {
                 # Entry already exists in custom log file. Do nothing, optionally, remove the # from the line below for output
                 # Write-Host "Event already exists in the custom log. Skipping." -ForegroundColor Gray -BackgroundColor Black
+                # Credit to Josh Makador
             }
         }
     }
